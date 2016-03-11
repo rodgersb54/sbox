@@ -1,0 +1,43 @@
+{
+  "name": "Base",
+  "version": "1.0.0",
+  "description": "Basic structure for Express web apps.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node_modules/.bin/mocha tests/**"
+  },
+  "keywords": [
+    "base",
+    "project",
+    "node",
+    "express",
+    "structure"
+  ],
+  "author": "Terlici Ltd.",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.12.3",
+    "bootstrap": "^3.3.6",
+    "bootstrap-sass": "^3.3.6",
+    "express": "^4.12.3",
+    "express-handlebars": "^3.0.0",
+    "html": "0.0.10",
+    "jquery": "^2.2.1",
+    "moment": "^2.11.2",
+    "sportline": "^0.1.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "chalk": "^1.1.1",
+    "debug": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.0",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "^1.5.1",
+    "mocha": "^2.2.4",
+    "should": "^6.0.1"
+  }
+}
