@@ -8,10 +8,10 @@
 ##How to use
 `npm install` dependancies
 
-command | use case | &nbsp;
+ use case | command | &nbsp;
 ------------ | ------------- | -------------
-`gulp` | Prototyping | Edit files inside /resources/ and let gulp take care of the rest
-`gulp` | Client side test runner | navigate to "yourlocalhost/test"
+ Prototyping | `gulp` | Edit files inside /resources/ and let gulp take care of the rest
+ Client side test runner | `gulp` | navigate to "yourlocalhost/test"
 
 <hr>
 
