@@ -1,6 +1,6 @@
 
 #What's sBox?
-1. sBox's intended use: a personal 'scratch pad' for web development prototyping.
+1. sBox's intended use: a personal 'scratch pad' for front and back-end web development prototyping
 2. sBox is a work in progress.
 
 <hr>
