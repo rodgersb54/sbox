@@ -1,6 +1,7 @@
 
-#sBox
-A (work in progress) rapid prototype environment.
+#What's sBox?
+1. sBox's intended use is as a 'scratch pad' for web development prototyping.
+2. sBox is a work in progress.
 
 ##How to use
 `npm install` dependancies
@@ -8,9 +9,9 @@ A (work in progress) rapid prototype environment.
 command | use case | &nbsp;
 ------------ | ------------- | -------------
 `gulp` | Prototyping | Edit files inside /resources/ and let gulp take care of the rest
-`gulp` | unit tests | navigate to "yourlocalhost/test"
+`gulp` | Client side test runner | navigate to "yourlocalhost/test"
 
-##Current Configuration
+##Configuration
 #####Node
 1. Router : Express
 2. View Engine : Handlebars
@@ -37,6 +38,7 @@ See package.json for full list
 + Switch to hapi for node routing
 + Install structures for SPA prototyping
 + Remove Gulp and use npm as build tool
++ Install a nosql database
 
 ######Author Notes
 > "Somewhere, something incredible is waiting to be known." - Carl Sagan
