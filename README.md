@@ -2,11 +2,11 @@
 #sBox
 A (work in progress) rapid prototype environment.
 
-##Usage
+##How to use
 `npm install` dependancies
 
-command | use case |
------------- | ------------- |
+command | use case | &nbsp;
+------------ | ------------- | -------------
 `gulp` | Prototyping | Edit files inside /resources/ and let gulp take care of the rest
 `gulp` | unit tests | navigate to "yourlocalhost/test"
 
