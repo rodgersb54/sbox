@@ -18,8 +18,8 @@ command | use case | &nbsp;
 3. Tests : Too small to require.
 
 #####Client
-1. Router : None ( considering...)
-2. View Manager : None ( considering... )
+1. Router : None (considering options)
+2. View Manager : None (considering options)
 3. Tests : Mocha w/Chai.
 
 #####HTML/CSS
@@ -39,6 +39,8 @@ See package.json for full list
 + Install structures for SPA prototyping
 + Remove Gulp and use npm as build tool
 + Install a nosql database
++ Command Options
++ Major Cleanup on node.js controllers
 
 ######Author Notes
 > "Somewhere, something incredible is waiting to be known." - Carl Sagan
