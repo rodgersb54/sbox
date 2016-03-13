@@ -3,9 +3,14 @@
 A (work in progress) rapid prototype environment.
 
 ##Usage
-1. npm install dependancies
-+ For Prototyping: run 'gulp' in terminal, then do your edits in /resources/* and let gulp take care of the rest.
-+ For Testing: Navigate to /test on your instance
+1. `npm install` dependancies
+
+command | usage | 
+---------------
+`gulp` | Prototyping | Edit files inside /resources/
+
++ For Prototyping: run `gulp` in terminal, then do your edits in /resources/ and let gulp take care of the rest.
++ For Testing: run `gulp` in terminal, then navigate to "yourlocalhost/test"
 
 ##Current Configuration
 #####Node
