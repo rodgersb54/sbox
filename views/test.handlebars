@@ -14,7 +14,7 @@
 <script src="node_modules/mocha/mocha.js"></script>
 <script src="node_modules/chai/chai.js"></script>
 <script>mocha.setup('bdd')</script>
-<script data-main="/scripts/testrunner" src="/js/vendor/require.js"></script>
+<!-- <script data-main="/scripts/testrunner" src="/js/vendor/require.js"></script> -->
 
 <div class="container">
 	<div class="row">
@@ -24,8 +24,8 @@
 </div>
 
 {{#each scripts}}
-	<script src="{{this.source}}"></script>
-	<script src="{{this.test}}"></script>
+	<script src="{{source}}"></script>
+	<script src="{{test}}"></script>
 {{/each}}
 
 

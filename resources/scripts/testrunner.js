@@ -16,15 +16,5 @@ require.config({
 });
 
 require([ 'jquery', 'moment', 'velocity', 'mocha', 'chai' ], function($, moment, velocity, mocha, chai ){
-	var expect = chai.expect;
+	//var expect = chai.expect;
 });
-
-// define(function(require){
-// 	console.log('starting...');
-// 	require('mocha');
-// 	mocha.setup('bdd')
-// 	//load scripts
-// 	require('scripts/ui/person.js');
-// 	require('tests/ui/person.js');
-// 	mocha.run();
-// });
