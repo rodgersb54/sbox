@@ -52,5 +52,7 @@ command | use case | &nbsp;
 + Major Cleanup on node.js controllers
 + Add a bunch of libraries
 
+<hr>
+
 ######Author Notes
 > "Somewhere, something incredible is waiting to be known." - Carl Sagan
