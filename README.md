@@ -11,17 +11,23 @@ A (work in progress) rapid prototype environment.
 ####Client
 1. Router : None ( considering...)
 2. View Manager : None ( considering... )
-3. Testrunner : Mocha with Chai
+3. Testrunner : Mocha w/Chai
 
 ####HTML/CSS
 1. SASS
 2. Bootstrap
 
 ###Dependancies
-See package.json
+See package.json for full list
++ Velocity
++ jQuery
++ Bootstrap
++ Express
++ Moment
 
 ##Future Considerations
 + Switch to hapi for node routing
++ 
 
 ######Author Notes
 > "Somewhere, something incredible is waiting to be known." - Carl Sagan
