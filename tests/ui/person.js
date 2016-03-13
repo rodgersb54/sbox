@@ -38,7 +38,7 @@ describe('it should create a new person instance', function(){
  // * pending tests for when a case should eventually be written
  // * remember where you see anon functions, that could also be a variable that is a function
  // * remember lessons from the beforeEach and describe body with the mars/earth example
- // * 
+ // * A unit test should be isolated from dependencies – for example, no network access and no database access.
  // *jQuery Lessons with stopclock
  // *Keep logic as flat as possile ( so important )
  // *Use events as a router/controller to each flat function
