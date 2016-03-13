@@ -3,14 +3,12 @@
 A (work in progress) rapid prototype environment.
 
 ##Usage
-1. `npm install` dependancies
+`npm install` dependancies
 
-command | usage | 
----------------
-`gulp` | Prototyping | Edit files inside /resources/
-
-+ For Prototyping: run `gulp` in terminal, then do your edits in /resources/ and let gulp take care of the rest.
-+ For Testing: run `gulp` in terminal, then navigate to "yourlocalhost/test"
+command | use case |
+------------ | ------------- |
+`gulp` | Prototyping | Edit files inside /resources/ and let gulp take care of the rest
+`gulp` | unit tests | navigate to "yourlocalhost/test"
 
 ##Current Configuration
 #####Node
@@ -38,6 +36,7 @@ See package.json for full list
 ##Future Considerations
 + Switch to hapi for node routing
 + Install structures for SPA prototyping
++ Remove Gulp and use npm as build tool
 
 ######Author Notes
 > "Somewhere, something incredible is waiting to be known." - Carl Sagan
