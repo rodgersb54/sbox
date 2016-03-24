@@ -44,6 +44,7 @@
 <hr>
 
 ##Future Releases
++ Accessability
 + Switch to hapi for node routing
 + Install structures for SPA prototyping
 + Remove Gulp and use npm as build tool

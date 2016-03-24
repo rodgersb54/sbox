@@ -81,6 +81,7 @@ gulp.task('bs-reload', function () {
 
 gulp.task('default', ['css','js','browser-sync'], function () {
   gulp.watch('resources/**/*.js',   ['js', browserSync.reload]);
+  gulp.watch('public/**/*.js',   ['js', browserSync.reload]);
   gulp.watch('resources/**/*.scss',  ['css']);
   gulp.watch('views/**/*.handlebars', ['bs-reload']);
   gulp.watch('views/**/*.html', ['bs-reload']);

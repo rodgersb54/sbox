@@ -1,20 +1,25 @@
 require.config({
 	paths: {
+		utils : '/js/utils/',
 		jquery: '/js/vendor/jquery',
 		moment: '/js/vendor/moment',
 		velocity: '/js/vendor/velocity',
-		utils : '/js/utils/',
-		mocha : '/node_modules/mocha/mocha',
-		chai : '/node_modules/chai/chai'
+		velocityUI : '/js/vendor/velocity.ui',
+		velocityTest : '/js/tests/velocityTest'
 	},
 	shim : {
 		"velocity" : {
 			deps : ["jquery"]
+		},
+		"velocityUI" : {
+			deps : ["velocity"]
 		}
 	}
 
 });
 
-require([ 'jquery', 'moment', 'velocity', 'mocha', 'chai' ], function($, moment, velocity, mocha, chai ){
-	//var expect = chai.expect;
+require([ 'jquery', 'moment', 'velocity', 'velocityUI', 'velocityTest'], function($, moment,  Velocity, velocityUI, velocityTest ){
+
+	velocityTest.init();
+
 });

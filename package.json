@@ -25,7 +25,8 @@
     "html": "0.0.10",
     "jquery": "^2.2.1",
     "moment": "^2.11.2",
-    "sportline": "^0.1.0"
+    "sportline": "^0.1.0",
+    "velocity-ui-pack": "^1.2.2"
   },
   "devDependencies": {
     "browser-sync": "^2.11.1",
