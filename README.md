@@ -6,7 +6,7 @@
 <hr>
 
 ##How to use
-`npm install` dependancies
+`npm install` dependancies<br/>
 <sup>*Install `gulp` globally</sup>
 
  use case | command | &nbsp;
