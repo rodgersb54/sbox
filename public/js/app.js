@@ -5,7 +5,7 @@ require.config({
 		moment: '/js/vendor/moment',
 		velocity: '/js/vendor/velocity',
 		velocityUI : '/js/vendor/velocity.ui',
-		velocityTest : '/js/tests/velocityTest'
+		velocityTest : '/js/tests/animation/goOk'
 	},
 	shim : {
 		"velocity" : {
@@ -20,6 +20,5 @@ require.config({
 
 require([ 'jquery', 'moment', 'velocity', 'velocityUI', 'velocityTest'], function($, moment,  Velocity, velocityUI, velocityTest ){
 
-	velocityTest.init();
 
 });

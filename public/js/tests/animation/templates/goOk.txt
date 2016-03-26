@@ -1,0 +1,80 @@
+.wrapper {
+	width:100%;
+	text-align: center;
+	padding:30px;
+}
+
+.box{
+	margin: 0 auto;
+	display:block;
+	width:300px;
+	padding:10px 30px;
+	border-radius: 4px;
+	text-align: center;
+	background-color: #ccc;
+	color: white;
+	position: relative;
+	cursor: pointer;
+}
+
+.icon {
+	position : absolute;
+	opacity: 0;
+	top: 16px;
+	left: 18px;
+	transform : scale(0.1)
+}
+
+.box-finished{
+	margin: 0 auto;
+	width:40px;
+	height:40px;
+	border:1px solid black;
+	border-color: black;
+	border-radius: 50%;
+	background-color: green;
+	color: white;
+	position: relative;
+	span {
+		position : absolute;
+		top:9px;
+		left:12px;
+	}
+}
+
+<div class="wrapper">
+
+	<div class="box">
+		<span class="text">Go!</span>
+		<i class="icon glyphicon glyphicon-ok"></i>
+	</div>
+	<br >
+	<div class="box">
+		<span class="text">Go!</span>
+		<i class="icon glyphicon glyphicon-ok"></i>
+	</div>
+	<br >
+	<div class="box">
+		<span class="text">Go!</span>
+		<i class="icon glyphicon glyphicon-ok"></i>
+	</div>
+	<br >
+	<div class="box">
+		<span class="text">Go!</span>
+		<i class="icon glyphicon glyphicon-ok"></i>
+	</div>
+
+</div>
+
+//Controller
+$('.box').on('click', function(e){
+	runIt(e);
+});
+
+function runIt(e){
+	var $box = $(e.currentTarget);
+	var $text = $(e.currentTarget).find('.text');
+	var $icon = $(e.currentTarget).find('.icon');
+
+	var goOk = velocityTest.init($box, $text, $icon);
+}
