@@ -7,6 +7,7 @@
 
 ##How to use
 `npm install` dependancies
+<sup>*Install `gulp` globally</sup>
 
  use case | command | &nbsp;
 ------------ | ------------- | -------------
