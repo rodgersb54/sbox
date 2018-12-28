@@ -6,7 +6,7 @@
 
 <hr>
 
-##How to use
+## How to use
 `npm install` dependancies<br/>
 <sup>*Install `gulp` globally</sup>
 
@@ -17,24 +17,24 @@
 
 <hr>
 
-##Configuration
-#####Node
+## Configuration
+##### Node
 + Router : Express
 + View Engine : Handlebars
 + Tests : Too small to require.
 
-#####Client
+##### Client
 + Router : None (considering options)
 + View Manager : None (considering options)
 + Tests : Mocha w/Chai.
 
-#####HTML/CSS
+##### HTML/CSS
 + SASS
 + Bootstrap
 
 <hr>
 
-##Included Libraries
+## Included Libraries
 + Velocity
 + jQuery
 + Bootstrap
@@ -45,7 +45,7 @@
 
 <hr>
 
-##Future Releases
+## Future Releases
 + Accessability
 + Switch to hapi for node routing
 + Install structures for SPA prototyping
@@ -57,5 +57,5 @@
 
 <hr>
 
-######Author Notes
+###### Author Notes
 > "Somewhere, something incredible is waiting to be known." - <em>Carl Sagan</em>
